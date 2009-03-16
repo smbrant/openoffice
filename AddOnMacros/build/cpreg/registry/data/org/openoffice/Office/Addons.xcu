@@ -1,0 +1,358 @@
+<?xml version='1.0' encoding='UTF-8'?>
+
+<oor:component-data xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema" oor:name="Addons" oor:package="org.openoffice.Office">
+  <node oor:name="AddonUI">
+    <node oor:name="OfficeMenuBar">
+      <node oor:name="com.example.addonmacros" oor:op="replace">
+        <prop oor:name="Title" oor:type="xs:string">
+          <value/>
+          <value xml:lang="en">Macros</value>
+        </prop>
+        <prop oor:name="Target" oor:type="xs:string">
+          <value>_self</value>
+        </prop>
+        <prop oor:name="ImageIdentifier" oor:type="xs:string">
+          <value/>
+        </prop>
+        <node oor:name="Submenu">
+          <node oor:name="m1" oor:op="replace">
+            <prop oor:name="URL" oor:type="xs:string">
+              <value>com.example.addonmacros:Command1</value>
+            </prop>
+            <prop oor:name="ImageIdentifier" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Target" oor:type="xs:string">
+              <value>_self</value>
+            </prop>
+            <prop oor:name="Context" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Title" oor:type="xs:string">
+              <value/>
+              <value xml:lang="en">01 - Hello</value>
+            </prop>
+          </node>
+          <node oor:name="m2" oor:op="replace">
+            <prop oor:name="URL" oor:type="xs:string">
+              <value>com.example.addonmacros:Command2</value>
+            </prop>
+            <prop oor:name="ImageIdentifier" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Target" oor:type="xs:string">
+              <value>_self</value>
+            </prop>
+            <prop oor:name="Context" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Title" oor:type="xs:string">
+              <value/>
+              <value xml:lang="en">02 - Clear blank lines</value>
+            </prop>
+          </node>
+          <node oor:name="m3" oor:op="replace">
+            <prop oor:name="URL" oor:type="xs:string">
+              <value>com.example.addonmacros:Command3</value>
+            </prop>
+            <prop oor:name="ImageIdentifier" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Target" oor:type="xs:string">
+              <value>_self</value>
+            </prop>
+            <prop oor:name="Context" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Title" oor:type="xs:string">
+              <value/>
+              <value xml:lang="en">03 - Open file dialog</value>
+            </prop>
+          </node>
+          <node oor:name="m4" oor:op="replace">
+            <prop oor:name="URL" oor:type="xs:string">
+              <value>com.example.addonmacros:Command4</value>
+            </prop>
+            <prop oor:name="ImageIdentifier" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Target" oor:type="xs:string">
+              <value>_self</value>
+            </prop>
+            <prop oor:name="Context" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Title" oor:type="xs:string">
+              <value/>
+              <value xml:lang="en">04 - Insert strings from dialog in document</value>
+            </prop>
+          </node>
+          <node oor:name="m5" oor:op="replace">
+            <prop oor:name="URL" oor:type="xs:string">
+              <value>com.example.addonmacros:Command5</value>
+            </prop>
+            <prop oor:name="ImageIdentifier" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Target" oor:type="xs:string">
+              <value>_self</value>
+            </prop>
+            <prop oor:name="Context" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Title" oor:type="xs:string">
+              <value/>
+              <value xml:lang="en">05 - Clear header and footer</value>
+            </prop>
+          </node>
+          <node oor:name="m6" oor:op="replace">
+            <prop oor:name="URL" oor:type="xs:string">
+              <value>com.example.addonmacros:Command6</value>
+            </prop>
+            <prop oor:name="ImageIdentifier" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Target" oor:type="xs:string">
+              <value>_self</value>
+            </prop>
+            <prop oor:name="Context" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Title" oor:type="xs:string">
+              <value/>
+              <value xml:lang="en">06 - Change background color</value>
+            </prop>
+          </node>
+          <node oor:name="m7" oor:op="replace">
+            <prop oor:name="URL" oor:type="xs:string">
+              <value>com.example.addonmacros:Command7</value>
+            </prop>
+            <prop oor:name="ImageIdentifier" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Target" oor:type="xs:string">
+              <value>_self</value>
+            </prop>
+            <prop oor:name="Context" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Title" oor:type="xs:string">
+              <value/>
+              <value xml:lang="en">Command7</value>
+            </prop>
+          </node>
+          <node oor:name="m8" oor:op="replace">
+            <prop oor:name="URL" oor:type="xs:string">
+              <value>com.example.addonmacros:Command8</value>
+            </prop>
+            <prop oor:name="ImageIdentifier" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Target" oor:type="xs:string">
+              <value>_self</value>
+            </prop>
+            <prop oor:name="Context" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Title" oor:type="xs:string">
+              <value/>
+              <value xml:lang="en">Command8</value>
+            </prop>
+          </node>
+          <node oor:name="m9" oor:op="replace">
+            <prop oor:name="URL" oor:type="xs:string">
+              <value>com.example.addonmacros:Command9</value>
+            </prop>
+            <prop oor:name="ImageIdentifier" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Target" oor:type="xs:string">
+              <value>_self</value>
+            </prop>
+            <prop oor:name="Context" oor:type="xs:string">
+              <value/>
+            </prop>
+            <prop oor:name="Title" oor:type="xs:string">
+              <value/>
+              <value xml:lang="en">Command9</value>
+            </prop>
+          </node>
+        </node>
+      </node>
+    </node>
+
+    <node oor:name="Images">
+      <node oor:name="com.example.addonmacros.command1.images" oor:op="replace">
+        <prop oor:name="URL" oor:type="xs:string">
+          <value>com.example.addonmacros:Command1</value>
+        </prop>
+        <node oor:name="UserDefinedImages">
+          <prop oor:name="ImageSmallURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageSmallHCURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigHCURL">
+            <value/>
+          </prop>
+        </node>
+      </node>
+      <node oor:name="com.example.addonmacros.command2.images" oor:op="replace">
+        <prop oor:name="URL" oor:type="xs:string">
+          <value>com.example.addonmacros:Command2</value>
+        </prop>
+        <node oor:name="UserDefinedImages">
+          <prop oor:name="ImageSmallURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageSmallHCURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigHCURL">
+            <value/>
+          </prop>
+        </node>
+      </node>
+      <node oor:name="com.example.addonmacros.command3.images" oor:op="replace">
+        <prop oor:name="URL" oor:type="xs:string">
+          <value>com.example.addonmacros:Command3</value>
+        </prop>
+        <node oor:name="UserDefinedImages">
+          <prop oor:name="ImageSmallURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageSmallHCURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigHCURL">
+            <value/>
+          </prop>
+        </node>
+      </node>
+      <node oor:name="com.example.addonmacros.command4.images" oor:op="replace">
+        <prop oor:name="URL" oor:type="xs:string">
+          <value>com.example.addonmacros:Command4</value>
+        </prop>
+        <node oor:name="UserDefinedImages">
+          <prop oor:name="ImageSmallURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageSmallHCURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigHCURL">
+            <value/>
+          </prop>
+        </node>
+      </node>
+      <node oor:name="com.example.addonmacros.command5.images" oor:op="replace">
+        <prop oor:name="URL" oor:type="xs:string">
+          <value>com.example.addonmacros:Command5</value>
+        </prop>
+        <node oor:name="UserDefinedImages">
+          <prop oor:name="ImageSmallURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageSmallHCURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigHCURL">
+            <value/>
+          </prop>
+        </node>
+      </node>
+      <node oor:name="com.example.addonmacros.command6.images" oor:op="replace">
+        <prop oor:name="URL" oor:type="xs:string">
+          <value>com.example.addonmacros:Command6</value>
+        </prop>
+        <node oor:name="UserDefinedImages">
+          <prop oor:name="ImageSmallURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageSmallHCURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigHCURL">
+            <value/>
+          </prop>
+        </node>
+      </node>
+      <node oor:name="com.example.addonmacros.command7.images" oor:op="replace">
+        <prop oor:name="URL" oor:type="xs:string">
+          <value>com.example.addonmacros:Command7</value>
+        </prop>
+        <node oor:name="UserDefinedImages">
+          <prop oor:name="ImageSmallURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageSmallHCURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigHCURL">
+            <value/>
+          </prop>
+        </node>
+      </node>
+      <node oor:name="com.example.addonmacros.command8.images" oor:op="replace">
+        <prop oor:name="URL" oor:type="xs:string">
+          <value>com.example.addonmacros:Command8</value>
+        </prop>
+        <node oor:name="UserDefinedImages">
+          <prop oor:name="ImageSmallURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageSmallHCURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigHCURL">
+            <value/>
+          </prop>
+        </node>
+      </node>
+      <node oor:name="com.example.addonmacros.command9.images" oor:op="replace">
+        <prop oor:name="URL" oor:type="xs:string">
+          <value>com.example.addonmacros:Command9</value>
+        </prop>
+        <node oor:name="UserDefinedImages">
+          <prop oor:name="ImageSmallURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageSmallHCURL">
+            <value/>
+          </prop>
+          <prop oor:name="ImageBigHCURL">
+            <value/>
+          </prop>
+        </node>
+      </node>
+      </node>
+  </node>
+</oor:component-data>

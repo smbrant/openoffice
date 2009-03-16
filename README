@@ -1,0 +1,15 @@
+OOo automation Using Java
+=========================
+
+Various tests dealing with the ooo java api.
+
+Macro_* : various tests.
+
+Pitonyak_*: translation of Andrew Pitonyak ooBasic examples.
+            Ref. OpenOffice.org Macros Explained
+                 Hentzenwerke Publishing
+
+Frysak_*: translation of Josef Frysak ooRexx examples.
+          Ref. http://wi.wu-wien.ac.at/rgf/diplomarbeiten/BakkStuff/2008/200809_Frysak/200809_Frysak_Automating_OOo_ooRexx_Nutshells.pdf
+
+smbrant, jan/2009.
